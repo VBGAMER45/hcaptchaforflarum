@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace vbgamer45\hCaptcha\Content;
+namespace vbgamer45\hcaptchaforflarum\Content;
 
 use Flarum\Frontend\Document;
 

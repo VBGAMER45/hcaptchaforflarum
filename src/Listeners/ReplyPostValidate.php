@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace vbgamer45\hCaptcha\Listeners;
+namespace vbgamer45\hcaptchaforflarum\Listeners;
 
 use Flarum\Post\Event\Saving;
-use vbgamer45\hCaptcha\Validators\hCaptchaValidator;
+use vbgamer45\hcaptchaforflarum\Validators\hCaptchaValidator;
 use Illuminate\Support\Arr;
 
 class ReplyPostValidate

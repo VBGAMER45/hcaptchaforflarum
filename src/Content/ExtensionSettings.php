@@ -9,7 +9,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace vbgamer45\hCaptcha\Content;
+namespace vbgamer45\hcaptchaforflarum\Content;
 
 use Flarum\Frontend\Document;
 use Flarum\Settings\SettingsRepositoryInterface;

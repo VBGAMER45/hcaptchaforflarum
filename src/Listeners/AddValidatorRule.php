@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace vbgamer45\hCaptcha\Listeners;
+namespace vbgamer45\hcaptchaforflarum\Listeners;
 
 use Flarum\Foundation\AbstractValidator;
 use Flarum\Settings\SettingsRepositoryInterface;

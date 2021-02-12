@@ -10,15 +10,15 @@
  * file that was distributed with this source code.
  */
 
-namespace vbgamer45\hCaptcha;
+namespace vbgamer45\hcaptchaforflarum;
 
 use Flarum\Api\Serializer\ForumSerializer;
 use Flarum\Discussion\Event\Saving as DiscussionSaving;
 use Flarum\Extend;
 use Flarum\Post\Event\Saving as PostSaving;
 use Flarum\User\Event\Saving as UserSaving;
-use vbgamer45\hCaptcha\Listeners\AddValidatorRule;
-use vbgamer45\hCaptcha\Validators\hCaptchaValidator;
+use vbgamer45\hcaptchaforflarum\Listeners\AddValidatorRule;
+use vbgamer45\hcaptchaforflarum\Validators\hCaptchaValidator;
 
 return [
     (new Extend\Frontend('forum'))
