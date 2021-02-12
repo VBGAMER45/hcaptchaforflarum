@@ -1,0 +1,17 @@
+vbgamer45-hCaptcha:
+  admin:
+    settings:
+      help_text: Obtain your hCaptcha credentials <a>here</a>.
+      secret_key_label: Secret Key
+      site_key_label: Site Key
+      title: hCaptcha For Flarum
+      type_label: hCaptcha Type
+    permissions:
+      post_without_captcha: Create posts and discussions without captcha
+  forum:
+    # This text is shown on the javascript error callback for hCaptcha.
+    # This is a generic error handler and we don't have access to the reason, so the message has to be vague.
+    error: There was an error submitting hCaptcha. Try again.
+
+validation:
+  hCaptcha: hCaptcha validation failed.

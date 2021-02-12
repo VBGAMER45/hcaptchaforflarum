@@ -1,0 +1,41 @@
+{
+  "name": "vbgamer45/hcaptchaforflarum",
+  "description": "hCAPTCHA is designed to keep out bots, protects user privacy and rewards website owners",
+  "keywords": [
+    "flarum", "hcaptcha"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/VBGAMER45/hcaptchaforflarum/issues",
+    "source": "https://github.com/VBGAMER45/hcaptchaforflarum",
+    "forum": "https://www.flarumplugins.com"
+  },
+  "homepage": "https://flarumplugins.com",
+  "require": {
+    "flarum/core": "^0.1.0-beta.15",
+    "mitloshuk/hcaptcha": "^1.2"
+  },
+  "authors": [
+    {
+      "name": "vbgamer45",
+      "email": "vbgamer45@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HCaptcha\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "hCAPTCHA For Flarum",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-robot",
+        "backgroundColor": "#e74c3c",
+        "color": "#fff"
+      }
+    }
+  }
+}
